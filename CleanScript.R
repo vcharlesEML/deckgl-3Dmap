@@ -21,7 +21,7 @@ sat <- mapdeck_style('satellite')
 satstreets <- mapdeck_style('satellite-streets')
 
 #map----
-a <- mapdeck(token = "pk.eyJ1IjoidmNoYXJsZXMiLCJhIjoiY2ppeGt1em82MDBuNjNrcGMxNWE0b2NqbCJ9.UgKOb_aR2Cp6UGv3udAbXQ",
+map <- mapdeck(token = "insert_your_token_here",
         style = outdoors, pitch = 45,
         location = c(0.58, 46.95),
         zoom = 5) %>%
@@ -61,4 +61,4 @@ a <- mapdeck(token = "pk.eyJ1IjoidmNoYXJsZXMiLCJhIjoiY2ppeGt1em82MDBuNjNrcGMxNWE
               fill_opacity = 165,
               tooltip = 'CULT',
               elevation = 'Z_moyen')
-a
+map
